@@ -1,0 +1,17 @@
+<div class=" space-y-3">
+  <h2 class=" font-black text-2xl">Totales y Propinas:</h2>
+  <p>Subtotal a pagar: {{''}}
+      <span class="font-bold">{{totales.Subtotal}}</span>
+  </p>
+  <p>Propina: {{''}}
+      <span class="font-bold">{{totales.PropinaCalculada}}</span>
+  </p>
+  <p>Total a Pagar: {{''}}
+      <span class="font-bold">{{totales.Total}}</span>
+  </p>
+</div>
+<button class="w-full bg-black p-3 uppercase text-white font-bold mt-10 disabled:opacity-10"
+(click)="clearOrder()"
+>
+  Guardar Orden
+</button>

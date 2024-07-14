@@ -1,0 +1,6 @@
+<button class=" border-2 border-teal-400 hover:bg-teal-200 w-full p-3 flex justify-between "
+*ngFor="let menu of menu" (click)="addCar(menu)"
+>
+  <p>{{menu.name}}</p>
+  <p class=" font-black" >${{menu.price}}</p>
+</button>
